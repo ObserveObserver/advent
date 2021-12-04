@@ -1,3 +1,4 @@
+*       USAGE = SNOBOL4 DAY2.SNO /I=*.TXT 
 	DEPTH = ARRAY('1,2', 0)
 	DEFINE('FORWARD(X)')        :(F_END)	
 FORWARD DEPTH[1,1] = DEPTH[1,1] + X :(RETURN)
