@@ -1,7 +1,7 @@
 *       USAGE: snobol4 day1.sno /I=numbers.txt
 	DEFINE('CHECK(A)') 	  :(CHECK_END)
 CHECK	C = INPUT 		  :F(ENDF)
-	TOTAL = GT(C,A) TOTAL + 1 :(CHECK(C)); :(RETURN)
+	TOTAL = GT(C,A) TOTAL + 1 :(CHECK(C))
 CHECK_END
 	CHECK(INPUT)
 ENDF	OUTPUT = TOTAL
